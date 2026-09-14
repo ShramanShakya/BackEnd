@@ -87,6 +87,12 @@ async function checkUser(email, password) {
     return false;
   }
 }
+export async function OPTIONS() {
+  return new Response(null, {
+    status: 204,
+    headers: corsHeaders,
+  });
+}
 
 function getJwtToken(user) {
   const token = jwt.sign(

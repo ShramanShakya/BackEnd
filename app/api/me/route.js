@@ -13,7 +13,14 @@ export function GET(request) {
   }
 
   return NextResponse.json(user, {
-    status: 201,
+    status: 200,
+    headers: corsHeaders,
+  });
+}
+
+export async function OPTIONS() {
+  return new Response(null, {
+    status: 204,
     headers: corsHeaders,
   });
 }
