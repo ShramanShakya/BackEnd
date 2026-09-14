@@ -1,0 +1,9 @@
+MONGODB_URI="mongodb+srv://u6712145:Nightbot123@cluster1.huuyk0j.mongodb.net/?appName=Cluster1"
+
+DB_NAME="sample_mflix"
+
+ADMIN_USER="Nightbot"
+ADMIN_PASS="Nightbot123"
+DB_NAME="sample_mflix"
+NODE_ENV=development
+JWT_SECRET="my_super_secret_jwt_key"
